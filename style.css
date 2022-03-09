@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", monospace;
+  min-height: 600px;
+  background-color: #272727;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 97vw;
+  height: 92vh;
+}
+
+.container {
+  margin: auto;
+  min-height: 600px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  height: 60vh;
+  width: 300px;
+  /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.315); */
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 20px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 17px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.page-logo {
+  width: 240px;
+}
+
+.github {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 600px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 18px;
+  width: 110px;
+  border-color: #84ad13;
+  border-style: double;
+  text-align: center;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: #84ad13;
+  font-size: 15px;
+  border: none;
+  color: white;
+  width: 120px;
+}
+
+button:hover {
+  background: #64830f;
+  cursor: pointer;
+}
+
+button:active {
+  background: #9dce18;
+}
+
+.resultado {
+  padding: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.5;
+  /* text-shadow: 3px 4px 8px #000; */
+}
+/*# sourceMappingURL=style.css.map */
