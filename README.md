@@ -9,17 +9,17 @@
 </div>
 
 <h3 align = "center">
-  Tente adivinhar qual número O Mentalista pensou, em até 3 tentativas.
+  Tente adivinhar o número secreto, em 3 tentativas.
 </h3>
 
 <h4 align = "center">
 	versão 1.0 ✅
 </h4>
 <br>
-<h2 align = "center">
-<a href="#" target="_blank">Pré-vizualização - clique aqui!
+<h3 align = "center">
+<a href="#" target="_blank">Acesse o site - clique aqui!
 </a> 
-</h2>
+</h3>
 
 <br>
 
