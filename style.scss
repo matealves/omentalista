@@ -46,7 +46,7 @@ body {
   }
   
   .page-logo {
-    width: 240px;
+    width: 235px;
   }
   
   .github {
@@ -74,6 +74,10 @@ body {
     border-style: double;
     text-align: center;
   }
+
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
   
   button {
     margin-top: 12px;
@@ -100,7 +104,7 @@ body {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 17px;
     line-height: 1.5;
     /* text-shadow: 3px 4px 8px #000; */
   }
