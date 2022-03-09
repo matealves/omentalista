@@ -38,7 +38,7 @@ body {
 }
 
 .page-logo {
-  width: 235px;
+  width: 230px;
 }
 
 .github {
@@ -94,11 +94,11 @@ button:active {
 
 .resultado {
   padding: 5px;
-  font-size: 20px;
+  font-size: 16px;
   color: #ffffff;
   text-align: center;
   margin-top: 17px;
-  line-height: 1.5;
+  line-height: 1.6;
   /* text-shadow: 3px 4px 8px #000; */
 }
 /*# sourceMappingURL=style.css.map */
