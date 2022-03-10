@@ -6,12 +6,12 @@
 body {
   font-family: "Roboto", monospace;
   min-height: 600px;
-  background-color: #272727;
+  background-color: #202d2e;
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
   width: 97vw;
-  height: 92vh;
+  height: 80vh;
 }
 
 .container {
@@ -27,18 +27,18 @@ body {
 
 .page-title {
   color: #ffffff;
-  margin: 0 0 20px;
+  margin: 0 0 12px;
 }
 
 .page-subtitle {
   color: #ffffff;
-  margin-top: 17px;
+  margin-top: 12px;
   margin-bottom: 12px;
   line-height: 1.5;
 }
 
 .page-logo {
-  width: 228px;
+  width: 310px;
 }
 
 .github {

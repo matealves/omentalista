@@ -35,10 +35,10 @@ function Chutar() {
     }
     
 } while(chute =! nSecret && qtd <3);
-if(qtd >= 3) {
+if(qtd >= 3 && chute != nSecret) {
 
     btJN.style.display = 'inline-block';
     btC.style.display = 'none';
     resultado.innerHTML = `=== GAME OVER ===<br>O número secreto é ${nSecret}`;
-} 
+}
 }

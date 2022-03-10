@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-$corBG: #272727;
+$corBG: #202d2e;
 $corBT: #84ad13;
 $corHover: #64830f;
 
@@ -26,7 +26,7 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     width: 97vw;
-    height: 92vh;
+    height: 80vh;
   }
 
   .container {
@@ -35,18 +35,18 @@ body {
   
   .page-title {
     color: #ffffff;
-    margin: 0 0 20px;
+    margin: 0 0 12px;
   }
   
   .page-subtitle {
     color: #ffffff;
-    margin-top: 17px;
+    margin-top: 12px;
     margin-bottom: 12px;
     line-height: 1.5;
   }
   
   .page-logo {
-    width: 228px;
+    width: 310px;
   }
   
   .github {
