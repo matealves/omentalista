@@ -9,7 +9,6 @@ function Jogar() {
     location.reload(); 
 }
 
-
 function Chutar() {   
 
     do {
@@ -20,8 +19,12 @@ function Chutar() {
     let resultado = document.getElementById("resultado");
     //console.log(chute);
     //console.log(qtd);
+    if(qtd >= 3 && chute != nSecret) {
 
-    if(chute == nSecret) {
+        btJN.style.display = 'inline-block';
+        btC.style.display = 'none';
+        resultado.innerHTML = `=== GAME OVER ===<br>O número secreto é ${nSecret}`;
+    } else  if(chute == nSecret) {
         resultado.innerHTML = `PARABÉNS!<br><br>Você acertou! em ${qtd} tentativa(s)<br>O número secreto é ${nSecret}`;
         btJN.style.display = 'inline-block';
         btC.style.display = 'none';
@@ -32,13 +35,7 @@ function Chutar() {
         chute.value = '' // APAGA O VALOR DIGITADO
     } else if(chute < nSecret){
         resultado.innerHTML = `Número muito baixo...<br>Escolha outro!<br><br>Restam ${3-qtd} tentativa(s)`;    
-    }
+    } 
     
 } while(chute =! nSecret && qtd <3);
-if(qtd >= 3 && chute != nSecret) {
-
-    btJN.style.display = 'inline-block';
-    btC.style.display = 'none';
-    resultado.innerHTML = `=== GAME OVER ===<br>O número secreto é ${nSecret}`;
-}
 }
