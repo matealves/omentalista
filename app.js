@@ -25,16 +25,16 @@ function Chutar() {
         btC.style.display = 'none';
         resultado.innerHTML = `=== GAME OVER ===<br>O número secreto é ${nSecret}`;
     } else  if(chute == nSecret) {
-        resultado.innerHTML = `PARABÉNS!<br><br>Você acertou! em ${qtd} tentativa(s)<br>O número secreto é ${nSecret}`;
+        resultado.innerHTML = `PARABÉNS!<br>Você acertou na ${qtd}ª tentativa.<br>O número secreto é ${nSecret}`;
         btJN.style.display = 'inline-block';
         btC.style.display = 'none';
     } else if (chute >10 || chute <0) {
         alert(`Digite um número entre 0 e 10. Restam ${3-qtd} tentativa(s)`);
     } else if (chute > nSecret){
-        resultado.innerHTML = `Número muito alto...<br>Escolha outro!<br><br>Restam ${3-qtd} tentativa(s)`;
+        resultado.innerHTML = `Número muito alto...<br>Escolha outro!<br>Restam ${3-qtd} tentativa(s)`;
         chute.value = '' // APAGA O VALOR DIGITADO
     } else if(chute < nSecret){
-        resultado.innerHTML = `Número muito baixo...<br>Escolha outro!<br><br>Restam ${3-qtd} tentativa(s)`;    
+        resultado.innerHTML = `Número muito baixo...<br>Escolha outro!<br>Restam ${3-qtd} tentativa(s)`;    
     } 
     
 } while(chute =! nSecret && qtd <3);
