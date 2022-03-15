@@ -5,6 +5,8 @@ let botao = document.getElementById("btJN");
 resultado.innerHTML = `Você têm<br>3 tentativas`;
 btJN.style.display = 'none';
 
+// console.log(nSecret)
+
 function Jogar() {
     location.reload(); 
 }
