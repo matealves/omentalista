@@ -39,5 +39,8 @@ function Chutar() {
         resultado.innerHTML = `Número muito baixo...<br>Escolha outro!<br>Restam ${3-qtd} tentativa(s)`;    
     } 
     
+    // resultado.value = "";
+    // resultado.focus();
+
 } while(chute =! nSecret && qtd <3);
-}
+} 
