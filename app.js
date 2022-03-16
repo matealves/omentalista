@@ -21,8 +21,8 @@ function Chutar() {
     let resultado = document.getElementById("resultado");
     //console.log(chute);
     //console.log(qtd);
+    
     if(qtd >= 3 && chute != nSecret) {
-
         btJN.style.display = 'inline-block';
         btC.style.display = 'none';
         resultado.innerHTML = `=== GAME OVER ===<br>O número secreto é ${nSecret}`;
@@ -39,8 +39,8 @@ function Chutar() {
         resultado.innerHTML = `Número muito baixo...<br>Escolha outro!<br>Restam ${3-qtd} tentativa(s)`;    
     } 
     
-    // resultado.value = "";
-    // resultado.focus();
+    valor.value = "";
+    valor.focus();
 
-} while(chute =! nSecret && qtd <3);
+} while(chute != nSecret && qtd <3);
 } 
