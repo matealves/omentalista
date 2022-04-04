@@ -13,7 +13,7 @@
 </h3>
 
 <h4 align = "center">
-	versão 2.6 ✅
+	versão 2.7 ✅
 </h4>
 <br>
 <h3 align = "center">

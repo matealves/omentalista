@@ -102,4 +102,20 @@ button:active {
   line-height: 1.7;
   /* text-shadow: 3px 4px 8px #000; */
 }
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
