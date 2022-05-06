@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="dialog-question-icon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="dialog-question-icon.png"
+      type="image/x-icon"
+    />
     <title>O Mentalista</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <h1 class="page-title">
-            O Mentalista
-        </h1>
+      <h1 class="page-title">O Mentalista</h1>
 
-        <img src="help.png" class="page-logo" alt=""><br>
+      <img src="help.png" class="page-logo" alt="" /><br />
 
-        <p class="page-subtitle">
-            Pensei num número de 0 a 10... <br> Te desafio! Qual é?
-        </p>
+      <p class="page-subtitle">
+        Pensei num número de 0 a 10... <br />
+        Te desafio! Qual é?
+      </p>
 
-        <input type="number" inputmode="numeric" placeholder="Insira o nº" id="valor" disabled="true"><br>
-        <button type="submit" onclick="Chutar()" id="btC">Chutar</button>
-        <button type="submit" onclick="Jogar()" id="btJN">Jogar novamente</button>
-        <h2 class="resultado" id="resultado"></h2>
-
+      <input
+        type="number"
+        inputmode="numeric"
+        placeholder="Insira o nº"
+        id="valor"
+        disabled="true"
+      /><br />
+      <button data-key="13" type="submit" onclick="Chutar()" id="btC" class="send" disabled="true">
+        Chutar
+      </button>
+      <button data-key="13" type="submit" onclick="Jogar()" id="btJN">
+        Jogar novamente
+      </button>
+      <h2 class="resultado" id="resultado"></h2>
     </div>
     <a href="https://github.com/matealves" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" class="github">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        alt=""
+        class="github"
+      />
     </a>
 
     <script src="app.js"></script>
-
-</body>
-
+  </body>
 </html>

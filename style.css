@@ -67,6 +67,7 @@ input {
   border-color: #84ad13;
   border-style: double;
   text-align: center;
+  outline: 0;
 }
 
 input[type=number]::-webkit-inner-spin-button {

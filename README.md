@@ -13,7 +13,7 @@
 </h3>
 
 <h4 align = "center">
-	versão 2.7 ✅
+	versão 2.0 complete ✅
 </h4>
 <br>
 <h3 align = "center">
@@ -33,7 +33,7 @@
 
 <div id="visao">
 <h1>  Visão geral </h1>
-O Mentalista é um jogo de adivinhação, onde é sorteado um número aleatório que o usuário não tem sabe qual é, e deve-se tentar descobrir o número em até 3 tentativas. Convide alguém para um desafio e veja quem tem mais sorte!
+O Mentalista é um jogo de adivinhação, onde é sorteado um número aleatório que o usuário não sabe qual é, e deve tentar descobrir o número em até 3 tentativas. Convide alguém para um desafio e veja quem tem mais sorte!
 
 </div>
 <br>
@@ -45,8 +45,10 @@ O Mentalista é um jogo de adivinhação, onde é sorteado um número aleatório
 
 
  <img align="center" alt="Mateus-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+   <img align="center" alt="Mateus-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+   <img align="center" alt="Mateus-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
   <img align="center" alt="Mateus-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">
-  <img align="center" alt="Mateus-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  
 
 </div>
 <br>
