@@ -13,7 +13,7 @@ let botao = document.getElementById("btJN");
 resultado.innerHTML = `Você têm<br>3 tentativas`;
 btJN.style.display = "none";
 
-console.log(nSecret);
+// console.log(nSecret);
 
 document.getElementById("valor").disabled = false;
 document.getElementById("btC").disabled = false;
