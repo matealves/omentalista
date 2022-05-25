@@ -1,4 +1,4 @@
-document.addEventListener("keydown", function (event) {
+document.addEventListener("keyup", function (event) {
   if (event.key === "Enter") {
     const btn = document.querySelector("#btC");
 
